@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página personal</title>
+    <link rel="stylesheet" href="../styles/mi_primer_pagina.css">
+</head>
+<body>
+    <header>
+        <h1>Mi página personal</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Información personal</h2>
+            <img src="../Imágenes/imagen.png" alt="">
+            <p>Hola, soy Baltazar. Soy un estudiante de Ingeniería en Sistemas y me gusta el fútbol</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies e intereses</h2>
+            <ul>
+                <li>Leer</li>
+                <li>Viajar</li>
+                <li>Cocinar</li>
+                <li>Programar</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Mi página personal. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

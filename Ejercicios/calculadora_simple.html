@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simple</title>
+    <link rel="stylesheet" href="../styles/calculadora_simple.css">
+</head>
+<body>
+    <div class="Calculadora">
+        <input type="text" id="resultado" disabled>
+        <div class="botones">
+            <button onclick="limpiarResultado()">C</button>
+            <button onclick="sumador('1')">1</button>
+            <button onclick="sumador('2')">2</button>
+            <button onclick="sumador('3')">3</button>
+            <button onclick="sumador('4')">4</button>
+            <button onclick="sumador('5')">5</button>
+            <button onclick="sumador('6')">6</button>
+            <button onclick="sumador('7')">7</button>
+            <button onclick="sumador('8')">8</button>
+            <button onclick="sumador('9')">9</button>
+            <button onclick="sumador('0')">0</button>
+            <button onclick="establecerOp('+')">+</button>
+            <button onclick="establecerOp('-')">-</button>
+            <button onclick="establecerOp('/')">/</button>
+            <button onclick="calcularResultado()">=</button>
+            <button onclick="establecerOp('*')">*</button>
+        </div>
+    </div>
+    <script src="../JavaScript/calculadora_simple.js"></script>
+</body>
+</html>
